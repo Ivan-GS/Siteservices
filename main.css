@@ -315,6 +315,50 @@ body {
         width: 250px;
         margin: 0 auto 0 auto;
     }
+    /*CONTENIDO DE EXHIBICION*/
+    .contenidoExhibicion h2 {
+        text-align: center;
+        color: #c31432;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-size: 20px;
+    }
+    .contenidoExhibicion h3 {
+        text-align: center;
+        color: #c0e218;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        margin: 50px 0;
+        font-size: 20px;
+    }
+    .contenidoExhibicion .viaje {
+        display: block;
+        margin: auto;
+        height: 350px;
+        width: auto;
+    }
+    .contenidoExhibicion .azul {
+        display: block;
+        margin: auto;
+        height: 500px;
+        width: auto;
+    }
+    .contenidoExhibicion .uber {
+        display: block;
+        margin: auto;
+        height: 300px;
+        width: 500px;
+    }
+    .imgTravel:hover {
+        transform: scale(1.1);
+        opacity: 0.5;
+    }
+    .imgBlue:hover {
+        transform: scale(1.1);
+        opacity: 0.5;
+    }
+    .imgUber:hover {
+        transform: scale(1.1);
+        opacity: 0.5;
+    }
     /*FOOTER*/
     .footer h1 {
         color: #c31432;
