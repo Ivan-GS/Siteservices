@@ -332,20 +332,20 @@ body {
     .contenidoExhibicion .viaje {
         display: block;
         margin: auto;
-        height: 350px;
+        height: 200px;
         width: auto;
     }
     .contenidoExhibicion .azul {
         display: block;
         margin: auto;
-        height: 500px;
+        height: 300px;
         width: auto;
     }
     .contenidoExhibicion .uber {
         display: block;
         margin: auto;
-        height: 300px;
-        width: 500px;
+        height: 150px;
+        width: auto;
     }
     .imgTravel:hover {
         transform: scale(1.1);
@@ -358,6 +358,19 @@ body {
     .imgUber:hover {
         transform: scale(1.1);
         opacity: 0.5;
+    }
+    /*LINEAS DIVISORAS*/
+    .contenido6 {
+        background-color: #c0e218;
+        height: 3px;
+        width: 80%;
+        margin: 40px auto;
+    }
+    .contenido7 {
+        background-color: #c0e218;
+        height: 2px;
+        width: 70%;
+        margin: 40px auto;
     }
     /*FOOTER*/
     .footer h1 {
