@@ -395,39 +395,39 @@ body {
         display: block;
         margin: auto;
         height: auto;
-        width: 300px;
+        width: 250px;
         margin-bottom: 20px;
     }
     .viaje2 {
         display: block;
         margin: auto;
-        height: 300px;
+        height: 200px;
         width: auto;
     }
     .blue1 {
         display: block;
         margin: auto;
         height: auto;
-        width: 300px;
+        width: 250px;
         margin-bottom: 20px;
     }
     .blue2 {
         display: block;
         margin: auto;
-        height: 300px;
+        height: 200px;
         width: auto;
     }
     .uber1 {
         display: block;
         margin: auto;
         height: auto;
-        width: 300px;
+        width: 250px;
         margin-bottom: 20px;
     }
     .uber2 {
         display: block;
         margin: auto;
-        height: 300px;
+        height: 200px;
         width: auto;
     }
     .viaje1:hover {
