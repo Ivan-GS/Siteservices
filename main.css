@@ -167,6 +167,11 @@ body {
 
 /*CONTENIDO DE EXHIBICION*/
 
+.contenidoExhibicion {
+    width: 500px;
+    margin: auto;
+}
+
 .contenidoExhibicion h2 {
     text-align: center;
     color: #c31432;
@@ -182,15 +187,72 @@ body {
     font-size: 30px;
 }
 
-.contenidoExhibicion img {
+.viaje1 {
+    display: block;
+    margin: auto;
+    height: auto;
+    width: 500px;
+    margin-bottom: 20px;
+}
+
+.viaje2 {
     display: block;
     margin: auto;
     height: 400px;
     width: auto;
 }
 
-.imgTravel:hover {
-    transform: scale(1.1);
+.blue1 {
+    display: block;
+    margin: auto;
+    height: auto;
+    width: 500px;
+    margin-bottom: 20px;
+}
+
+.blue2 {
+    display: block;
+    margin: auto;
+    height: 400px;
+    width: auto;
+}
+
+.uber1 {
+    display: block;
+    margin: auto;
+    height: auto;
+    width: 500px;
+    margin-bottom: 20px;
+}
+
+.uber2 {
+    display: block;
+    margin: auto;
+    height: 400px;
+    width: auto;
+}
+
+.viaje1:hover {
+    opacity: 0.5;
+}
+
+.viaje2:hover {
+    opacity: 0.5;
+}
+
+.blue1:hover {
+    opacity: 0.5;
+}
+
+.blue2:hover {
+    opacity: 0.5;
+}
+
+.uber1:hover {
+    opacity: 0.5;
+}
+
+.uber2:hover {
     opacity: 0.5;
 }
 
@@ -326,29 +388,64 @@ body {
         text-align: center;
         color: #c0e218;
         font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-        margin: 50px 0;
+        margin: 25px 0;
         font-size: 20px;
     }
-    .contenidoExhibicion .viaje {
+    .viaje1 {
         display: block;
         margin: auto;
-        height: 200px;
-        width: auto;
+        height: auto;
+        width: 300px;
+        margin-bottom: 20px;
     }
-    .contenidoExhibicion .azul {
+    .viaje2 {
         display: block;
         margin: auto;
         height: 300px;
         width: auto;
     }
-    .contenidoExhibicion .uber {
+    .blue1 {
         display: block;
         margin: auto;
-        height: 150px;
+        height: auto;
+        width: 300px;
+        margin-bottom: 20px;
+    }
+    .blue2 {
+        display: block;
+        margin: auto;
+        height: 300px;
         width: auto;
     }
-    .imgTravel:hover {
-        transform: scale(1.1);
+    .uber1 {
+        display: block;
+        margin: auto;
+        height: auto;
+        width: 300px;
+        margin-bottom: 20px;
+    }
+    .uber2 {
+        display: block;
+        margin: auto;
+        height: 300px;
+        width: auto;
+    }
+    .viaje1:hover {
+        opacity: 0.5;
+    }
+    .viaje2:hover {
+        opacity: 0.5;
+    }
+    .blue1:hover {
+        opacity: 0.5;
+    }
+    .blue2:hover {
+        opacity: 0.5;
+    }
+    .uber1:hover {
+        opacity: 0.5;
+    }
+    .uber2:hover {
         opacity: 0.5;
     }
     .imgBlue:hover {
