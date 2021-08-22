@@ -378,6 +378,9 @@ body {
         margin: 0 auto 0 auto;
     }
     /*CONTENIDO DE EXHIBICION*/
+    .contenidoExhibicion {
+        width: 80%;
+    }
     .contenidoExhibicion h2 {
         text-align: center;
         color: #c31432;
@@ -395,39 +398,39 @@ body {
         display: block;
         margin: auto;
         height: auto;
-        width: 250px;
+        width: 300px;
         margin-bottom: 20px;
     }
     .viaje2 {
         display: block;
         margin: auto;
-        height: 200px;
+        height: 300px;
         width: auto;
     }
     .blue1 {
         display: block;
         margin: auto;
         height: auto;
-        width: 250px;
+        width: 300px;
         margin-bottom: 20px;
     }
     .blue2 {
         display: block;
         margin: auto;
-        height: 200px;
+        height: 300px;
         width: auto;
     }
     .uber1 {
         display: block;
         margin: auto;
         height: auto;
-        width: 250px;
+        width: 300px;
         margin-bottom: 20px;
     }
     .uber2 {
         display: block;
         margin: auto;
-        height: 200px;
+        height: 300px;
         width: auto;
     }
     .viaje1:hover {
