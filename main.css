@@ -4,7 +4,7 @@
 }
 
 body {
-    background-color: #111d5e;
+    background-color: #000000;
 }
 
 .header {
@@ -165,105 +165,153 @@ body {
 }
 
 
-/*CONTENIDO DE EXHIBICION*/
+/*CONTENIDO DE EXHIBICION SLIDER*/
 
-.contenidoExhibicion {
-    width: 500px;
+.slider_blue {
+    width: 80%;
     margin: auto;
+    height: 500px;
+    overflow: hidden;
+    padding-top: 50px;
 }
 
-.contenidoExhibicion h2 {
-    text-align: center;
-    color: #c31432;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size: 30px;
+.slider_blue ul {
+    padding: 0;
+    display: flex;
+    width: 200%;
+    animation: slider_blue 10s infinite alternate;
 }
 
-.contenidoExhibicion h3 {
-    text-align: center;
-    color: #c0e218;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    margin: 50px 0;
-    font-size: 30px;
+.slider_blue li {
+    width: 80%;
+    list-style: none;
 }
 
-.viaje1 {
+.slider_blue li img {
+    width: 50%;
     display: block;
     margin: auto;
-    height: auto;
-    width: 500px;
-    margin-bottom: 20px;
 }
 
-.viaje2 {
+@keyframes slider_blue {
+    0% {
+        margin-left: 0;
+    }
+    40% {
+        margin-left: 0%;
+    }
+    50% {
+        margin-left: -100%;
+    }
+    60% {
+        margin-left: -100%;
+    }
+    80% {
+        margin-left: -200%;
+    }
+    100% {
+        margin-left: -200%;
+    }
+}
+
+
+/*2*/
+
+.slider_uber {
+    width: 80%;
+    margin: auto;
+    height: 500px;
+    overflow: hidden;
+    padding-top: 50px;
+}
+
+.slider_uber ul {
+    padding: 0;
+    display: flex;
+    width: 200%;
+    animation: slider_blue 10s infinite alternate;
+}
+
+.slider_uber li {
+    width: 80%;
+    list-style: none;
+}
+
+.slider_uber li img {
+    width: 50%;
     display: block;
     margin: auto;
-    height: 400px;
-    width: auto;
 }
 
-.blue1 {
+@keyframes slider_uber {
+    0% {
+        margin-left: 0;
+    }
+    20% {
+        margin-left: 0%;
+    }
+    40% {
+        margin-left: -100%;
+    }
+    60% {
+        margin-left: -100%;
+    }
+    80% {
+        margin-left: -200%;
+    }
+    100% {
+        margin-left: -200%;
+    }
+}
+
+
+/*3*/
+
+.slider_viaje {
+    width: 80%;
+    margin: auto;
+    height: 800px;
+    overflow: hidden;
+    padding-top: 50px;
+}
+
+.slider_viaje ul {
+    padding: 0;
+    display: flex;
+    width: 200%;
+    animation: slider_blue 10s infinite alternate;
+}
+
+.slider_viaje li {
+    width: 80%;
+    list-style: none;
+}
+
+.slider_viaje li img {
+    width: 50%;
     display: block;
     margin: auto;
-    height: auto;
-    width: 500px;
-    margin-bottom: 20px;
 }
 
-.blue2 {
-    display: block;
-    margin: auto;
-    height: 400px;
-    width: auto;
-}
-
-.uber1 {
-    display: block;
-    margin: auto;
-    height: auto;
-    width: 500px;
-    margin-bottom: 20px;
-}
-
-.uber2 {
-    display: block;
-    margin: auto;
-    height: 400px;
-    width: auto;
-}
-
-.viaje1:hover {
-    opacity: 0.5;
-}
-
-.viaje2:hover {
-    opacity: 0.5;
-}
-
-.blue1:hover {
-    opacity: 0.5;
-}
-
-.blue2:hover {
-    opacity: 0.5;
-}
-
-.uber1:hover {
-    opacity: 0.5;
-}
-
-.uber2:hover {
-    opacity: 0.5;
-}
-
-.imgBlue:hover {
-    transform: scale(1.1);
-    opacity: 0.5;
-}
-
-.imgUber:hover {
-    transform: scale(1.1);
-    opacity: 0.5;
+@keyframes slider_viaje {
+    0% {
+        margin-left: 0;
+    }
+    20% {
+        margin-left: 0%;
+    }
+    40% {
+        margin-left: -100%;
+    }
+    60% {
+        margin-left: -100%;
+    }
+    80% {
+        margin-left: -200%;
+    }
+    100% {
+        margin-left: -200%;
+    }
 }
 
 
@@ -378,93 +426,140 @@ body {
         margin: 0 auto 0 auto;
     }
     /*CONTENIDO DE EXHIBICION*/
-    .contenidoExhibicion {
+    .slider_blue {
         width: 80%;
+        margin: auto;
+        height: 500px;
+        overflow: hidden;
+        padding-top: 20px;
     }
-    .contenidoExhibicion h2 {
-        text-align: center;
-        color: #c31432;
-        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-        font-size: 20px;
+    .slider_blue ul {
+        padding: 0;
+        display: flex;
+        width: 200%;
+        animation: slider_blue 10s infinite alternate;
     }
-    .contenidoExhibicion h3 {
-        text-align: center;
-        color: #c0e218;
-        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-        margin: 25px 0;
-        font-size: 20px;
+    .slider_blue li {
+        width: 80%;
+        list-style: none;
     }
-    .viaje1 {
+    .slider_blue li img {
+        width: 50%;
         display: block;
         margin: auto;
-        height: auto;
-        width: 300px;
-        margin-bottom: 20px;
     }
-    .viaje2 {
+    @keyframes slider_blue {
+        0% {
+            margin-left: 0;
+        }
+        40% {
+            margin-left: 0%;
+        }
+        50% {
+            margin-left: -100%;
+        }
+        60% {
+            margin-left: -100%;
+        }
+        80% {
+            margin-left: -200%;
+        }
+        100% {
+            margin-left: -200%;
+        }
+    }
+    /*2*/
+    .slider_uber {
+        width: 80%;
+        margin: auto;
+        height: 500px;
+        overflow: hidden;
+        padding-top: 20px;
+    }
+    .slider_uber ul {
+        padding: 0;
+        display: flex;
+        width: 200%;
+        animation: slider_blue 10s infinite alternate;
+    }
+    .slider_uber li {
+        width: 80%;
+        list-style: none;
+    }
+    .slider_uber li img {
+        width: 50%;
         display: block;
         margin: auto;
-        height: 300px;
-        width: auto;
     }
-    .blue1 {
+    @keyframes slider_uber {
+        0% {
+            margin-left: 0;
+        }
+        20% {
+            margin-left: 0%;
+        }
+        40% {
+            margin-left: -100%;
+        }
+        60% {
+            margin-left: -100%;
+        }
+        80% {
+            margin-left: -200%;
+        }
+        100% {
+            margin-left: -200%;
+        }
+    }
+    /*3*/
+    .slider_viaje {
+        width: 80%;
+        margin: auto;
+        height: 500px;
+        overflow: hidden;
+        padding-top: 20px;
+    }
+    .slider_viaje ul {
+        padding: 0;
+        display: flex;
+        width: 200%;
+        animation: slider_blue 10s infinite alternate;
+    }
+    .slider_viaje li {
+        width: 80%;
+        list-style: none;
+    }
+    .slider_viaje li img {
+        width: 50%;
         display: block;
         margin: auto;
-        height: auto;
-        width: 300px;
-        margin-bottom: 20px;
     }
-    .blue2 {
-        display: block;
-        margin: auto;
-        height: 300px;
-        width: auto;
-    }
-    .uber1 {
-        display: block;
-        margin: auto;
-        height: auto;
-        width: 300px;
-        margin-bottom: 20px;
-    }
-    .uber2 {
-        display: block;
-        margin: auto;
-        height: 300px;
-        width: auto;
-    }
-    .viaje1:hover {
-        opacity: 0.5;
-    }
-    .viaje2:hover {
-        opacity: 0.5;
-    }
-    .blue1:hover {
-        opacity: 0.5;
-    }
-    .blue2:hover {
-        opacity: 0.5;
-    }
-    .uber1:hover {
-        opacity: 0.5;
-    }
-    .uber2:hover {
-        opacity: 0.5;
-    }
-    .imgBlue:hover {
-        transform: scale(1.1);
-        opacity: 0.5;
-    }
-    .imgUber:hover {
-        transform: scale(1.1);
-        opacity: 0.5;
+    @keyframes slider_viaje {
+        0% {
+            margin-left: 0;
+        }
+        20% {
+            margin-left: 0%;
+        }
+        40% {
+            margin-left: -100%;
+        }
+        60% {
+            margin-left: -100%;
+        }
+        80% {
+            margin-left: -200%;
+        }
+        100% {
+            margin-left: -200%;
+        }
     }
     /*LINEAS DIVISORAS*/
     .contenido6 {
         background-color: #c0e218;
         height: 3px;
         width: 80%;
-        margin: 20px auto;
+        margin: auto;
     }
     .contenido7 {
         background-color: #c0e218;
