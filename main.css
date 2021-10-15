@@ -179,7 +179,7 @@ body {
     padding: 0;
     display: flex;
     width: 200%;
-    animation: slider_blue 10s infinite alternate;
+    animation: slider_blue 10s infinite alternate-reverse;
 }
 
 .slider_blue li {
@@ -229,7 +229,7 @@ body {
     padding: 0;
     display: flex;
     width: 200%;
-    animation: slider_blue 10s infinite alternate;
+    animation: slider_blue 11s infinite alternate;
 }
 
 .slider_uber li {
@@ -279,7 +279,7 @@ body {
     padding: 0;
     display: flex;
     width: 200%;
-    animation: slider_blue 10s infinite alternate;
+    animation: slider_blue 12s infinite alternate-reverse;
 }
 
 .slider_viaje li {
@@ -428,23 +428,23 @@ body {
     /*CONTENIDO DE EXHIBICION*/
     .slider_blue {
         width: 80%;
-        margin: auto;
+        margin: 50px auto 0px;
         height: 500px;
         overflow: hidden;
-        padding-top: 20px;
+        padding: 0;
     }
     .slider_blue ul {
         padding: 0;
         display: flex;
         width: 200%;
-        animation: slider_blue 10s infinite alternate;
+        animation: slider_blue 10s infinite alternate-reverse;
     }
     .slider_blue li {
         width: 80%;
         list-style: none;
     }
     .slider_blue li img {
-        width: 50%;
+        width: 70%;
         display: block;
         margin: auto;
     }
@@ -474,20 +474,20 @@ body {
         margin: auto;
         height: 500px;
         overflow: hidden;
-        padding-top: 20px;
+        padding: 0;
     }
     .slider_uber ul {
         padding: 0;
         display: flex;
         width: 200%;
-        animation: slider_blue 10s infinite alternate;
+        animation: slider_blue 11s infinite alternate;
     }
     .slider_uber li {
         width: 80%;
         list-style: none;
     }
     .slider_uber li img {
-        width: 50%;
+        width: 70%;
         display: block;
         margin: auto;
     }
@@ -517,20 +517,20 @@ body {
         margin: auto;
         height: 500px;
         overflow: hidden;
-        padding-top: 20px;
+        padding: 0;
     }
     .slider_viaje ul {
         padding: 0;
         display: flex;
         width: 200%;
-        animation: slider_blue 10s infinite alternate;
+        animation: slider_blue 12s infinite alternate-reverse;
     }
     .slider_viaje li {
         width: 80%;
         list-style: none;
     }
     .slider_viaje li img {
-        width: 50%;
+        width: 70%;
         display: block;
         margin: auto;
     }

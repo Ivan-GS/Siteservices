@@ -214,7 +214,7 @@ span {
 
 @media (min-width:320px) and (max-width:479px) {
     body {
-        background-color: #111d5e;
+        background-color: #000000;
     }
     .contenido h1 {
         color: #c31432;
